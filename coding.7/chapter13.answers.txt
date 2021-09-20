@@ -1,0 +1,12 @@
+/*********************************************
+Your name: Yryskeldi Emilbek uulu
+Question 2: there is a total of 7960 MB of installed memory in my system. 6506 MB of those is free unused memory. The numbers did not match my intuition.
+Question 4: When the program is running, the total free memory changed from 6352 MB to 6331 MB.
+When the program is killed, the used memory gets back to its original state (meaning whatever MB I gave
+as an argument are substracted from the last checked used memory). 
+Question 6: I got the process ID to check with pmap by using the ps auxw to see the list of all processes.
+I got the process ID by looking at the second column on the table ('PID').
+Question 7: I see a row called Total KB, and several columns like KBytes, RSS, Dirty Mode, and Mapping.
+Question 8: As the argument gets bigger for ./memory-user, the bigger will be the numbers when running
+the pmap for the process ID of ./memory-user
+*********************************************/
